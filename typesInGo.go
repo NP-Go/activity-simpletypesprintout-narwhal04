@@ -1,9 +1,16 @@
 package main
 
+import "fmt"
+
 //Insert variables declarations here based on activity
+var (
+	text      string = "The following is the account information"
+	firstname string = "Luke"
+	lastname  string = "SkyWalker"
+)
 
 func tellMeTypes() {
-	//insert code here to print out types of variables
+	fmt.Printf("%T %T %T", text, firstname, lastname)
 }
 
 func main() {
